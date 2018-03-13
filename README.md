@@ -1,7 +1,7 @@
 # Image pan and zoom for Android
 
 ```bash
-npm install --save react-native-image-zoom
+yarn add AshbaLee/react-native-image-zoom
 ```
 
 ##### Props:
