@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-zoom",
-  "version": "0.31.0",
+  "version": "0.1.0",
   "description": "React Native wrappers for PhotoView and universal-image-loader",
   "main": "image.js",
   "scripts": {
@@ -8,19 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anthonyzou/react-native-image-zoom.git"
+    "url": "git+https://github.com/AshbaLee/react-native-image-zoom.git"
   },
   "keywords": [
     "react-native",
     "android",
     "react-component"
   ],
-  "author": "Anthony Ou",
+  "author": "Ashba Lee",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Anthonyzou/react-native-image-zoom/issues"
-  },
-  "homepage": "https://github.com/Anthonyzou/react-native-image-zoom#readme",
+  "homepage": "https://github.com/AshbaLee/react-native-image-zoom#readme",
   "dependencies": {
   },
   "peerDependencies": {

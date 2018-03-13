@@ -7,25 +7,6 @@ import {
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
 
 export default class ImageViewZoom extends Component {
-  static propTypes = {
-    ...View.propTypes,
-    source: PropTypes.oneOfType([
-      PropTypes.shape({
-        uri: PropTypes.string,
-        thumbnail: PropTypes.string,
-        headers: PropTypes.object,
-      }),
-      // Opaque type returned by require('./image.jpg')
-      PropTypes.number,
-    ]),
-    scale: PropTypes.number,
-    scaleType: PropTypes.oneOf(["center","centerCrop","centerInside","fitCenter","fitStart","fitEnd","fitXY","matrix"]),
-    onTap : PropTypes.func,
-    onLoad : PropTypes.func,
-    onScaleChange : PropTypes.func,
-    onMatrixChange : PropTypes.func,
-  };
-
   constructor(props) {
     super(props);
   }
